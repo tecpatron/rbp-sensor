@@ -7,4 +7,4 @@ _El proyecto surge como respuesta a la necesidad de contar con un dispositivo ac
 
 ## Software
 * Arduino IDE
-* PyCharm (para cargar el GUI)
+* PyCharm (Recomendado: para cargar el GUI)
