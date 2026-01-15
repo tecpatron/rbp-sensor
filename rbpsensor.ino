@@ -16,6 +16,7 @@ float tMax = 26;
 float hMin = 30;
 float hMax = 60;
 
+// La parte de los LEDs no se ha implementado correctamente (aún)
 void setup() {
   Serial.begin(9600);
   dht.begin();
@@ -44,7 +45,7 @@ void loop() {
     return;
   }
 
-  // Mostrar en LCD
+  // Esto se muestra en el LCD
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("Temp: ");
